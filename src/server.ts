@@ -1,7 +1,7 @@
 import express from "express";
 import connectDB from "./config/database";
 import Router from "@/routes/index";
-import categoryRoutes from "./routes/category.routes";
+import categoryRoutes from "./routes/categoryroute";
 
 const app = express();
 //Enable json parsing body
